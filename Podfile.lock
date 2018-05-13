@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.2)
+  - ImageLoader (0.14.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - ImageLoader
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - ImageLoader
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  ImageLoader: 56f57e35d6ed26a74183dc2e472133b4b22eb7b9
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 0ef87059161775e37413a7ccb5909103868206b0
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,6 @@
+framework module Pods_TipRanks_Project {
+  umbrella header "Pods-TipRanks Project-umbrella.h"
+
+  export *
+  module * { export * }
+}
