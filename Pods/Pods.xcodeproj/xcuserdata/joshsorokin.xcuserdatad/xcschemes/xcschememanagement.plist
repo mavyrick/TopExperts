@@ -18,21 +18,21 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-TipRanks Project.xcscheme</key>
+		<key>Pods-TopExperts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-TipRanks ProjectTests.xcscheme</key>
+		<key>Pods-TopExpertsTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-TipRanks ProjectUITests.xcscheme</key>
+		<key>Pods-TopExpertsUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
