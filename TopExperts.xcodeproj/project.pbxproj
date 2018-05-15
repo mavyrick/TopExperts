@@ -15,7 +15,6 @@
 		353EFFC420A858A0001DA529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353EFFC220A858A0001DA529 /* LaunchScreen.storyboard */; };
 		353EFFCF20A858A0001DA529 /* TopExpertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFCE20A858A0001DA529 /* TopExpertsTests.swift */; };
 		353EFFDA20A858A0001DA529 /* TopExpertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFD920A858A0001DA529 /* TopExpertsUITests.swift */; };
-		353EFFEC20A85A6D001DA529 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFE720A85A6D001DA529 /* TableViewDataSource.swift */; };
 		353EFFEE20A85A6D001DA529 /* ExpertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFE920A85A6D001DA529 /* ExpertTableViewCell.swift */; };
 		353EFFF220A85D2E001DA529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFF120A85D2E001DA529 /* AppDelegate.swift */; };
 		3B10AF1937F92846D4A9EA0B /* Pods_TopExpertsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE760ACEFEC04A6E079B10C4 /* Pods_TopExpertsTests.framework */; };
@@ -57,7 +56,6 @@
 		353EFFD520A858A0001DA529 /* TopExpertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopExpertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353EFFD920A858A0001DA529 /* TopExpertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopExpertsUITests.swift; sourceTree = "<group>"; };
 		353EFFDB20A858A0001DA529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		353EFFE720A85A6D001DA529 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 		353EFFE920A85A6D001DA529 /* ExpertTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpertTableViewCell.swift; sourceTree = "<group>"; };
 		353EFFF120A85D2E001DA529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC76E22B911B98FBA5C5BB3 /* Pods_TopExperts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopExperts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +142,6 @@
 				353EFFFE20A86B41001DA529 /* Controllers */,
 				353EFFB820A8589D001DA529 /* ViewController.swift */,
 				353EFFE920A85A6D001DA529 /* ExpertTableViewCell.swift */,
-				353EFFE720A85A6D001DA529 /* TableViewDataSource.swift */,
 				353EFFF120A85D2E001DA529 /* AppDelegate.swift */,
 				353EFFC020A858A0001DA529 /* Assets.xcassets */,
 				353EFFC220A858A0001DA529 /* LaunchScreen.storyboard */,
@@ -418,7 +415,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				353EFFB920A8589D001DA529 /* ViewController.swift in Sources */,
-				353EFFEC20A85A6D001DA529 /* TableViewDataSource.swift in Sources */,
 				353EFFEE20A85A6D001DA529 /* ExpertTableViewCell.swift in Sources */,
 				353E001520A871D8001DA529 /* ExpertModel.swift in Sources */,
 				353EFFF220A85D2E001DA529 /* AppDelegate.swift in Sources */,
