@@ -1,8 +1,6 @@
 import UIKit
 import Foundation
 
-//  This architecture does not follow the single responsibility principle as much as I would have liked. I wanted to ceate a subclass that handled the table view data source (see "TableViewDataSource.swift file"). However, I ran into numerous bugs implementing it and had to put my table view functions in the main view controller. Therefore, the controller is not as slim as it could be.
-
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
