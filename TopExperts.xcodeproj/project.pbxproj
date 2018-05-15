@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		353E001520A871D8001DA529 /* ExpertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E001420A871D8001DA529 /* ExpertModel.swift */; };
-		353E001B20A87261001DA529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E001920A87261001DA529 /* Main.storyboard */; };
+		353E001F20AB4661001DA529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E001D20AB4661001DA529 /* Main.storyboard */; };
 		353EFFB920A8589D001DA529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFB820A8589D001DA529 /* ViewController.swift */; };
 		353EFFBF20A8589D001DA529 /* TopExperts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFBD20A8589D001DA529 /* TopExperts.xcdatamodeld */; };
 		353EFFC120A858A0001DA529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353EFFC020A858A0001DA529 /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 		0A9BC94375ADAA4F3430A9A2 /* Pods-TopExpertsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopExpertsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopExpertsTests/Pods-TopExpertsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E27A0EE1CE3950004113241 /* Pods-TopExpertsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopExpertsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopExpertsUITests/Pods-TopExpertsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		353E001420A871D8001DA529 /* ExpertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpertModel.swift; path = TopExperts/Models/ExpertModel.swift; sourceTree = SOURCE_ROOT; };
-		353E001A20A87261001DA529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TopExperts/Views/Views/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		353E001E20AB4661001DA529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TopExperts/Views/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		353EFFB320A8589D001DA529 /* TopExperts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopExperts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353EFFB820A8589D001DA529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		353EFFBE20A8589D001DA529 /* TopExperts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopExperts.xcdatamodel; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		353E001020A86FAB001DA529 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				353E001920A87261001DA529 /* Main.storyboard */,
+				353E001D20AB4661001DA529 /* Main.storyboard */,
 			);
 			name = Views;
 			path = ..;
@@ -308,7 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353E001B20A87261001DA529 /* Main.storyboard in Resources */,
+				353E001F20AB4661001DA529 /* Main.storyboard in Resources */,
 				353EFFC420A858A0001DA529 /* LaunchScreen.storyboard in Resources */,
 				353EFFC120A858A0001DA529 /* Assets.xcassets in Resources */,
 			);
@@ -454,10 +454,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		353E001920A87261001DA529 /* Main.storyboard */ = {
+		353E001D20AB4661001DA529 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				353E001A20A87261001DA529 /* Base */,
+				353E001E20AB4661001DA529 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
