@@ -98,7 +98,6 @@
 		353E001020A86FAB001DA529 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				353E001D20AB4661001DA529 /* Main.storyboard */,
 			);
 			name = Views;
 			path = ..;
@@ -143,6 +142,7 @@
 				353EFFB820A8589D001DA529 /* ViewController.swift */,
 				353EFFE920A85A6D001DA529 /* ExpertTableViewCell.swift */,
 				353EFFF120A85D2E001DA529 /* AppDelegate.swift */,
+				353E001D20AB4661001DA529 /* Main.storyboard */,
 				353EFFC020A858A0001DA529 /* Assets.xcassets */,
 				353EFFC220A858A0001DA529 /* LaunchScreen.storyboard */,
 				353EFFC520A858A0001DA529 /* Info.plist */,
