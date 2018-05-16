@@ -1,0 +1,6 @@
+framework module Pods_TopExperts {
+  umbrella header "Pods-TopExperts-umbrella.h"
+
+  export *
+  module * { export * }
+}
