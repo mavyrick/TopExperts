@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		353E001520A871D8001DA529 /* ExpertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E001420A871D8001DA529 /* ExpertModel.swift */; };
-		353E001F20AB4661001DA529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E001D20AB4661001DA529 /* Main.storyboard */; };
 		353EFFB920A8589D001DA529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFB820A8589D001DA529 /* ViewController.swift */; };
 		353EFFBF20A8589D001DA529 /* TopExperts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFBD20A8589D001DA529 /* TopExperts.xcdatamodeld */; };
 		353EFFC120A858A0001DA529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353EFFC020A858A0001DA529 /* Assets.xcassets */; };
@@ -17,6 +16,7 @@
 		353EFFDA20A858A0001DA529 /* TopExpertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFD920A858A0001DA529 /* TopExpertsUITests.swift */; };
 		353EFFEE20A85A6D001DA529 /* ExpertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFE920A85A6D001DA529 /* ExpertTableViewCell.swift */; };
 		353EFFF220A85D2E001DA529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EFFF120A85D2E001DA529 /* AppDelegate.swift */; };
+		35C8DE7420AC77A3008BF50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C8DE7220AC77A3008BF50D /* Main.storyboard */; };
 		3B10AF1937F92846D4A9EA0B /* Pods_TopExpertsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE760ACEFEC04A6E079B10C4 /* Pods_TopExpertsTests.framework */; };
 		6FDFB3B6EB02709B58BFDC90 /* Pods_TopExperts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC76E22B911B98FBA5C5BB3 /* Pods_TopExperts.framework */; };
 		EA11653C670ADE8C65AB5401 /* Pods_TopExpertsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0A1FF85A12E448FBBFE431 /* Pods_TopExpertsUITests.framework */; };
@@ -43,7 +43,6 @@
 		0A9BC94375ADAA4F3430A9A2 /* Pods-TopExpertsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopExpertsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopExpertsTests/Pods-TopExpertsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E27A0EE1CE3950004113241 /* Pods-TopExpertsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopExpertsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopExpertsUITests/Pods-TopExpertsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		353E001420A871D8001DA529 /* ExpertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpertModel.swift; path = TopExperts/Models/ExpertModel.swift; sourceTree = SOURCE_ROOT; };
-		353E001E20AB4661001DA529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TopExperts/Views/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		353EFFB320A8589D001DA529 /* TopExperts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopExperts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353EFFB820A8589D001DA529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		353EFFBE20A8589D001DA529 /* TopExperts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopExperts.xcdatamodel; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		353EFFDB20A858A0001DA529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		353EFFE920A85A6D001DA529 /* ExpertTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpertTableViewCell.swift; sourceTree = "<group>"; };
 		353EFFF120A85D2E001DA529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35C8DE7320AC77A3008BF50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EC76E22B911B98FBA5C5BB3 /* Pods_TopExperts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopExperts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAD4362B13B671F72B4C4FD /* Pods-TopExperts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopExperts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopExperts/Pods-TopExperts.debug.xcconfig"; sourceTree = "<group>"; };
 		930AD24C27030BEA42F1DE0A /* Pods-TopExpertsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopExpertsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopExpertsTests/Pods-TopExpertsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,9 +140,9 @@
 				353E001020A86FAB001DA529 /* Views */,
 				353EFFFE20A86B41001DA529 /* Controllers */,
 				353EFFB820A8589D001DA529 /* ViewController.swift */,
+				35C8DE7220AC77A3008BF50D /* Main.storyboard */,
 				353EFFE920A85A6D001DA529 /* ExpertTableViewCell.swift */,
 				353EFFF120A85D2E001DA529 /* AppDelegate.swift */,
-				353E001D20AB4661001DA529 /* Main.storyboard */,
 				353EFFC020A858A0001DA529 /* Assets.xcassets */,
 				353EFFC220A858A0001DA529 /* LaunchScreen.storyboard */,
 				353EFFC520A858A0001DA529 /* Info.plist */,
@@ -308,7 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353E001F20AB4661001DA529 /* Main.storyboard in Resources */,
+				35C8DE7420AC77A3008BF50D /* Main.storyboard in Resources */,
 				353EFFC420A858A0001DA529 /* LaunchScreen.storyboard in Resources */,
 				353EFFC120A858A0001DA529 /* Assets.xcassets in Resources */,
 			);
@@ -454,20 +454,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		353E001D20AB4661001DA529 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				353E001E20AB4661001DA529 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		353EFFC220A858A0001DA529 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				353EFFC320A858A0001DA529 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		35C8DE7220AC77A3008BF50D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C8DE7320AC77A3008BF50D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
